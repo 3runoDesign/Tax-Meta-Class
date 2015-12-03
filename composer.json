@@ -1,0 +1,19 @@
+{
+	"name": "bainternet/Tax-Meta-Class",
+	"description": "The Tax Meta Class is used by including it in your plugin r theme files and using its methods to Add meta fields for WordPress Taxonomies (categories,tags and custom taxonomies). It is meant to be very simple and straightforward.",
+	"homepage": "https://github.com/bainternet/Tax-Meta-Class",
+	"license": "MIT",
+	"authors": [
+		{
+			"name": "Raz Ohad",
+			"homepage": "http://en.bainternet.info"
+		}
+	],
+	"minimum-stability": "dev",
+		"require": {
+		"php": ">=5.3.0"
+	},
+	"autoload": {
+		"psr-0": { "Tax_Meta_Class": "Tax-meta-class/" }
+	}
+}
